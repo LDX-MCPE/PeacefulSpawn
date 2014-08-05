@@ -1,5 +1,7 @@
 <?php
+
 namespace LDX\PeacefulSpawn;
+
 use pocketmine\math\Vector3;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
@@ -9,6 +11,7 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\Server;
 use pocketmine\utils\TextFormat;
 use pocketmine\event\entity\EntityDamageEvent;
+
 class Main extends PluginBase implements Listener {
   public function onLoad() {
     $this->getLogger()->info(TextFormat::YELLOW . "Loading PeacefulSpawn v2.0 by LDX...");
